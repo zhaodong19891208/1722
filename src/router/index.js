@@ -6,7 +6,6 @@ import Details from '@/details/details'
 import List from '@/list/list'
 import Indent from '@/indent/indent'
 
-
 Vue.use(Router)
 
 export default new Router({
@@ -15,26 +14,22 @@ export default new Router({
       path: '/',
       name: 'Index',
       component: Index
-    },
-    {
+    }, {
       path: '/city',
       name: 'City',
       component: City
-    },
-    {
+    }, {
       path: '/details',
       name: 'Details',
       component: Details
-    },
-    {
+    }, {
       path: '/list',
       name: 'List',
       component: List
-    },
-    {
+    }, {
       path: '/indent',
       name: 'Indent',
       component: Indent
-    },
+    }
   ]
 })
